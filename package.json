@@ -1,0 +1,23 @@
+{
+  "name": "mssql-test",
+  "version": "1.0.0",
+  "description": "dialysis description maker",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "src/bin/start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ianproletov",
+  "license": "ISC",
+  "dependencies": {
+    "json2xls": "^0.1.2",
+    "lodash": "^4.17.21",
+    "mssql": "^9.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
